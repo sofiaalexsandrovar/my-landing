@@ -1,0 +1,50 @@
+/* === 1. Градієнтна кнопка з анімацією при наведенні === */
+.button, .btn, button {
+  background: linear-gradient(45deg, #d4a5ff, #f7e8ff);
+  border: none;
+  border-radius: 35px;
+  color: #3c2a4d;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover, .btn:hover, button:hover {
+  background: linear-gradient(45deg, #b373ff, #e3b8ff);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* === 2. Оновлений стиль заголовків === */
+h1, h2, h3 {
+  font-family: 'Mea Culpa', cursive;
+  color: #3c2a4d;
+  letter-spacing: 1px;
+}
+
+/* === 3. Зміна фону секцій === */
+section {
+  background-color: #faf7fc;
+  padding: 80px 0;
+}
+
+/* === 4. Ефект при наведенні на зображення === */
+img:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+  filter: brightness(1.1);
+}
+
+/* === 5. Невелике тінювання для карток / блоків === */
+.card, .collection-item {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.card:hover, .collection-item:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transform: translateY(-5px);
+}
